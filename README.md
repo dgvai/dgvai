@@ -6,7 +6,7 @@
 
 ## Github Stats
 
-<p align=left> <img src=https://komarev.com/ghpvc/?username=dgvai alt=dgvai /> <small>(since January 2022)</small></p>
+<p align=left> <img src=https://komarev.com/ghpvc/?username=dgvai alt=dgvai /></p>
 
 [![github stats](https://github-readme-stats.vercel.app/api?username=dgvai)](https://github.com/anuraghazra/github-readme-stats) 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=dgvai&layout=compact)](https://github.com/dgvai/github-readme-stats)
@@ -14,41 +14,41 @@
 ### Open-source Contributions:
 
 #### Composer Packages (Laravel)
- - <a href="https://github.com/dgvai/laravel-adminlte-components">  Laravel AdminLTE Components</a> (Blade Components)
+ - <a href="https://github.com/dgvai/laravel-adminlte-components">  Laravel AdminLTE Components</a> (Blade Components)  
  <img alt="Packagist Stars" src="https://img.shields.io/packagist/stars/dgvai/laravel-adminlte-components"> <img alt="Github Forks" src="https://img.shields.io/github/forks/dgvai/laravel-adminlte-components"> 
 
- - <a href="https://github.com/dgvai/laravel-sslcommerz">  Laravel SSLCommerz</a> (Payment Gateway)
+ - <a href="https://github.com/dgvai/laravel-sslcommerz">  Laravel SSLCommerz</a> (Payment Gateway)  
  <img alt="Packagist Stars" src="https://img.shields.io/packagist/stars/dgvai/laravel-sslcommerz"> <img alt="Github Forks" src="https://img.shields.io/github/forks/dgvai/laravel-sslcommerz"> 
 
- - <a href="https://github.com/dgvai/laravel-nagad">  Laravel Nagad</a> (Payment Gateway)
+ - <a href="https://github.com/dgvai/laravel-nagad">  Laravel Nagad</a> (Payment Gateway)  
  <img alt="Packagist Stars" src="https://img.shields.io/packagist/stars/dgvai/laravel-nagad"> <img alt="Github Forks" src="https://img.shields.io/github/forks/dgvai/laravel-nagad"> 
  
- -  <a href="https://github.com/dgvai/laravel-user-review">  Laravel User Review</a> (User based Review System)
+ -  <a href="https://github.com/dgvai/laravel-user-review">  Laravel User Review</a> (User based Review System)  
  <img alt="Packagist Stars" src="https://img.shields.io/packagist/stars/dgvai/laravel-user-review"> <img alt="Github Forks" src="https://img.shields.io/github/forks/dgvai/laravel-user-review">
 
- - <a href="https://github.com/dgvai/laravel-notification-channel-onnorokomsms"> Laravel OnnorokomSMS</a> (Notification Channel)
+ - <a href="https://github.com/dgvai/laravel-notification-channel-onnorokomsms"> Laravel OnnorokomSMS</a> (Notification Channel)  
  <img alt="Packagist Stars" src="https://img.shields.io/packagist/stars/dgvai/laravel-notification-channel-onnorokomsms"> <img alt="Github Forks" src="https://img.shields.io/github/forks/dgvai/laravel-notification-channel-onnorokomsms"> 
 
- - <a href="https://github.com/dgvai/laravel-notification-channel-isms"> Laravel iSMS</a> (Notification Channel)
+ - <a href="https://github.com/dgvai/laravel-notification-channel-isms"> Laravel iSMS</a> (Notification Channel)  
  <img alt="Packagist Stars" src="https://img.shields.io/packagist/stars/dgvai/laravel-notification-channel-isms">  <img alt="Github Forks" src="https://img.shields.io/github/forks/dgvai/laravel-notification-channel-isms"> 
 
- - <a href="https://github.com/dgvai/laravel-invoicer"> Invoicer</a> (Invoice Generator) 
+ - <a href="https://github.com/dgvai/laravel-invoicer"> Invoicer</a> (Invoice Generator)   
  <img alt="Packagist Stars" src="https://img.shields.io/packagist/stars/dgvai/laravel-invoicer"> <img alt="Github Forks" src="https://img.shields.io/github/forks/dgvai/laravel-invoicer"> 
 
- - <a href="https://github.com/dgvai/larataller"> Larataller</a> (Laravel Site Installer) 
+ - <a href="https://github.com/dgvai/larataller"> Larataller</a> (Laravel Site Installer)   
  <img alt="Packagist Stars" src="https://img.shields.io/packagist/stars/dgvai/larataller"> <img alt="Github Forks" src="https://img.shields.io/github/forks/dgvai/larataller"> 
 
- - <a href="https://github.com/dgvai/laravel-demo-mode"> Demo Mode</a> (Demo Mode For Laravel) 
+ - <a href="https://github.com/dgvai/laravel-demo-mode"> Demo Mode</a> (Demo Mode For Laravel)   
  <img alt="Packagist Stars" src="https://img.shields.io/packagist/stars/dgvai/laravel-demo-mode"> <img alt="Github Forks" src="https://img.shields.io/github/forks/dgvai/laravel-demo-mode"> 
 
  #### Applications
 
- - [Pitch Tuner - WebAudio API + ReactJS](https://github.com/dgvai/webaudio-pitch-tuner/)
+ - [Pitch Tuner - WebAudio API + ReactJS](https://github.com/dgvai/webaudio-pitch-tuner/)  
    [![GitHub stars](https://badgen.net/github/stars/dgvai/webaudio-pitch-tuner)](https://github.com/dgvai/webaudio-pitch-tuner/)  [![GitHub forks](https://badgen.net/github/forks/dgvai/webaudio-pitch-tuner)](https://github.com/dgvai/webaudio-pitch-tuner/)  
 
- - [Wordle with Friends - ReactJS + Tailwind](https://github.com/dgvai/wordle-with-friends/)
+ - [Wordle with Friends - ReactJS + Tailwind](https://github.com/dgvai/wordle-with-friends/)  
    [![GitHub stars](https://badgen.net/github/stars/dgvai/wordle-with-friends)](https://github.com/dgvai/wordle-with-friends/)  [![GitHub forks](https://badgen.net/github/forks/dgvai/wordle-with-friends)](https://github.com/dgvai/wordle-with-friends/)  
 
- - [Wordle Algorithm](https://github.com/dgvai/wordle-algorithm/)
+ - [Wordle Algorithm](https://github.com/dgvai/wordle-algorithm/)  
    [![GitHub stars](https://badgen.net/github/stars/dgvai/wordle-algorithm)](https://github.com/dgvai/wordle-algorithm/)  [![GitHub forks](https://badgen.net/github/forks/dgvai/wordle-algorithm)](https://github.com/dgvai/wordle-algorithm/)  
 
