@@ -1,6 +1,7 @@
 # Hi, I am Jalal Uddin 👋
+Full-stack Software Developer &bull; Machine Learning Enthusiast 
 
-[![Gmail Badge](https://img.shields.io/badge/-Mail%20Me-c14438?style=flat&logo=Gmail&logoColor=white)](mailto:dgvai.hridoy@gmail.com) [![Linkedin Badge](https://img.shields.io/badge/-Jalal%20Uddin-0072b1?style=flat&logo=Linkedin&logoColor=white)](https://linkedin.com/in/dgvai/)  [![Twitter Badge](https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white)](https://twitter.com/dgvai/)  [![Reddit Badge](https://img.shields.io/badge/Reddit-FF4500?style=flat&logo=reddit&logoColor=white)](https://reddit.com/u/dgvai/)  [![Facebook Badge](https://img.shields.io/badge/Facebook-1877F2?style=flat&logo=facebook&logoColor=white)](https://facebook.com/dgvai.hridoy/) 
+[![Gmail Badge](https://img.shields.io/badge/-Mail%20Me-c14438?style=flat&logo=Gmail&logoColor=white)](mailto:dgvai.hridoy@gmail.com) [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-0072b1?style=flat&logo=Linkedin&logoColor=white)](https://linkedin.com/in/dgvai/)  [![Twitter Badge](https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white)](https://twitter.com/dgvai/)  [![Reddit Badge](https://img.shields.io/badge/Reddit-FF4500?style=flat&logo=reddit&logoColor=white)](https://reddit.com/u/dgvai/)  [![Facebook Badge](https://img.shields.io/badge/Facebook-1877F2?style=flat&logo=facebook&logoColor=white)](https://facebook.com/dgvai.hridoy/) 
 
 </p>
 
@@ -14,32 +15,32 @@
 ### Open-source Contributions:
 
 #### Composer Packages (Laravel)
- - <a href="https://github.com/dgvai/laravel-adminlte-components">  Laravel AdminLTE Components</a> (Blade Components)
- <img alt="Packagist Stars" src="https://img.shields.io/packagist/stars/dgvai/laravel-adminlte-components"> <img alt="Github Forks" src="https://img.shields.io/github/forks/dgvai/laravel-adminlte-components"> 
+ - <a href="https://github.com/dgvai/laravel-adminlte-components">  Laravel AdminLTE Components</a> (Blade Components)  
+ <img alt="Total Downloads" src="https://poser.pugx.org/dgvai/laravel-adminlte-components/downloads"> <img alt="Packagist Stars" src="https://img.shields.io/packagist/stars/dgvai/laravel-adminlte-components"> <img alt="Github Forks" src="https://img.shields.io/github/forks/dgvai/laravel-adminlte-components"> 
 
  - <a href="https://github.com/dgvai/laravel-sslcommerz">  Laravel SSLCommerz</a> (Payment Gateway)
- <img alt="Packagist Stars" src="https://img.shields.io/packagist/stars/dgvai/laravel-sslcommerz"> <img alt="Github Forks" src="https://img.shields.io/github/forks/dgvai/laravel-sslcommerz"> 
+ <img alt="Total Downloads" src="https://poser.pugx.org/dgvai/laravel-sslcommerz/downloads"> <img alt="Packagist Stars" src="https://img.shields.io/packagist/stars/dgvai/laravel-sslcommerz"> <img alt="Github Forks" src="https://img.shields.io/github/forks/dgvai/laravel-sslcommerz"> 
 
  - <a href="https://github.com/dgvai/laravel-nagad">  Laravel Nagad</a> (Payment Gateway)
- <img alt="Packagist Stars" src="https://img.shields.io/packagist/stars/dgvai/laravel-nagad"> <img alt="Github Forks" src="https://img.shields.io/github/forks/dgvai/laravel-nagad"> 
+ <img alt="Total Downloads" src="https://poser.pugx.org/dgvai/laravel-nagad/downloads"> <img alt="Packagist Stars" src="https://img.shields.io/packagist/stars/dgvai/laravel-nagad"> <img alt="Github Forks" src="https://img.shields.io/github/forks/dgvai/laravel-nagad"> 
  
  -  <a href="https://github.com/dgvai/laravel-user-review">  Laravel User Review</a> (User based Review System)
- <img alt="Packagist Stars" src="https://img.shields.io/packagist/stars/dgvai/laravel-user-review"> <img alt="Github Forks" src="https://img.shields.io/github/forks/dgvai/laravel-user-review">
+ <img alt="Total Downloads" src="https://poser.pugx.org/dgvai/laravel-user-review/downloads"> <img alt="Packagist Stars" src="https://img.shields.io/packagist/stars/dgvai/laravel-user-review"> <img alt="Github Forks" src="https://img.shields.io/github/forks/dgvai/laravel-user-review">
 
  - <a href="https://github.com/dgvai/laravel-notification-channel-onnorokomsms"> Laravel OnnorokomSMS</a> (Notification Channel)
- <img alt="Packagist Stars" src="https://img.shields.io/packagist/stars/dgvai/laravel-notification-channel-onnorokomsms"> <img alt="Github Forks" src="https://img.shields.io/github/forks/dgvai/laravel-notification-channel-onnorokomsms"> 
+ <img alt="Total Downloads" src="https://poser.pugx.org/dgvai/laravel-notification-channel-onnorokomsms/downloads"> <img alt="Packagist Stars" src="https://img.shields.io/packagist/stars/dgvai/laravel-notification-channel-onnorokomsms"> <img alt="Github Forks" src="https://img.shields.io/github/forks/dgvai/laravel-notification-channel-onnorokomsms"> 
 
  - <a href="https://github.com/dgvai/laravel-notification-channel-isms"> Laravel iSMS</a> (Notification Channel)
- <img alt="Packagist Stars" src="https://img.shields.io/packagist/stars/dgvai/laravel-notification-channel-isms">  <img alt="Github Forks" src="https://img.shields.io/github/forks/dgvai/laravel-notification-channel-isms"> 
+ <img alt="Total Downloads" src="https://poser.pugx.org/dgvai/laravel-notification-channel-isms/downloads"> <img alt="Packagist Stars" src="https://img.shields.io/packagist/stars/dgvai/laravel-notification-channel-isms">  <img alt="Github Forks" src="https://img.shields.io/github/forks/dgvai/laravel-notification-channel-isms"> 
 
  - <a href="https://github.com/dgvai/laravel-invoicer"> Invoicer</a> (Invoice Generator) 
- <img alt="Packagist Stars" src="https://img.shields.io/packagist/stars/dgvai/laravel-invoicer"> <img alt="Github Forks" src="https://img.shields.io/github/forks/dgvai/laravel-invoicer"> 
+ <img alt="Total Downloads" src="https://poser.pugx.org/dgvai/laravel-invoicer/downloads"> <img alt="Packagist Stars" src="https://img.shields.io/packagist/stars/dgvai/laravel-invoicer"> <img alt="Github Forks" src="https://img.shields.io/github/forks/dgvai/laravel-invoicer"> 
 
  - <a href="https://github.com/dgvai/larataller"> Larataller</a> (Laravel Site Installer) 
- <img alt="Packagist Stars" src="https://img.shields.io/packagist/stars/dgvai/larataller"> <img alt="Github Forks" src="https://img.shields.io/github/forks/dgvai/larataller"> 
+ <img alt="Total Downloads" src="https://poser.pugx.org/dgvai/larataller/downloads"> <img alt="Packagist Stars" src="https://img.shields.io/packagist/stars/dgvai/larataller"> <img alt="Github Forks" src="https://img.shields.io/github/forks/dgvai/larataller"> 
 
  - <a href="https://github.com/dgvai/laravel-demo-mode"> Demo Mode</a> (Demo Mode For Laravel) 
- <img alt="Packagist Stars" src="https://img.shields.io/packagist/stars/dgvai/laravel-demo-mode"> <img alt="Github Forks" src="https://img.shields.io/github/forks/dgvai/laravel-demo-mode"> 
+ <img alt="Total Downloads" src="https://poser.pugx.org/dgvai/laravel-demo-mode/downloads"> <img alt="Packagist Stars" src="https://img.shields.io/packagist/stars/dgvai/laravel-demo-mode"> <img alt="Github Forks" src="https://img.shields.io/github/forks/dgvai/laravel-demo-mode"> 
 
  #### Applications
 
