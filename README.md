@@ -7,7 +7,7 @@ Full-stack Software Developer &bull; Machine Learning Enthusiast
 
 ## Github Stats
 
-<p align=left> <img src=https://komarev.com/ghpvc/?username=dgvai alt=dgvai /> <small>(since January 2022)</small></p>
+<p align=left> <img src=https://komarev.com/ghpvc/?username=dgvai alt=dgvai /></p>
 
 [![github stats](https://github-readme-stats.vercel.app/api?username=dgvai)](https://github.com/anuraghazra/github-readme-stats) 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=dgvai&layout=compact)](https://github.com/dgvai/github-readme-stats)
@@ -44,12 +44,12 @@ Full-stack Software Developer &bull; Machine Learning Enthusiast
 
  #### Applications
 
- - [Pitch Tuner - WebAudio API + ReactJS](https://github.com/dgvai/webaudio-pitch-tuner/)
+ - [Pitch Tuner - WebAudio API + ReactJS](https://github.com/dgvai/webaudio-pitch-tuner/)  
    [![GitHub stars](https://badgen.net/github/stars/dgvai/webaudio-pitch-tuner)](https://github.com/dgvai/webaudio-pitch-tuner/)  [![GitHub forks](https://badgen.net/github/forks/dgvai/webaudio-pitch-tuner)](https://github.com/dgvai/webaudio-pitch-tuner/)  
 
- - [Wordle with Friends - ReactJS + Tailwind](https://github.com/dgvai/wordle-with-friends/)
+ - [Wordle with Friends - ReactJS + Tailwind](https://github.com/dgvai/wordle-with-friends/)  
    [![GitHub stars](https://badgen.net/github/stars/dgvai/wordle-with-friends)](https://github.com/dgvai/wordle-with-friends/)  [![GitHub forks](https://badgen.net/github/forks/dgvai/wordle-with-friends)](https://github.com/dgvai/wordle-with-friends/)  
 
- - [Wordle Algorithm](https://github.com/dgvai/wordle-algorithm/)
+ - [Wordle Algorithm](https://github.com/dgvai/wordle-algorithm/)  
    [![GitHub stars](https://badgen.net/github/stars/dgvai/wordle-algorithm)](https://github.com/dgvai/wordle-algorithm/)  [![GitHub forks](https://badgen.net/github/forks/dgvai/wordle-algorithm)](https://github.com/dgvai/wordle-algorithm/)  
 
