@@ -14,6 +14,17 @@ Full-stack Software Developer &bull; Machine Learning Enthusiast
 
 ### Open-source Contributions:
 
+#### Applications
+
+ - [Pitch Tuner - WebAudio API + ReactJS](https://github.com/dgvai/webaudio-pitch-tuner/)  
+   [![GitHub stars](https://badgen.net/github/stars/dgvai/webaudio-pitch-tuner)](https://github.com/dgvai/webaudio-pitch-tuner/)  [![GitHub forks](https://badgen.net/github/forks/dgvai/webaudio-pitch-tuner)](https://github.com/dgvai/webaudio-pitch-tuner/)  
+
+ - [Wordle with Friends - ReactJS + Tailwind](https://github.com/dgvai/wordle-with-friends/)  
+   [![GitHub stars](https://badgen.net/github/stars/dgvai/wordle-with-friends)](https://github.com/dgvai/wordle-with-friends/)  [![GitHub forks](https://badgen.net/github/forks/dgvai/wordle-with-friends)](https://github.com/dgvai/wordle-with-friends/)  
+
+ - [Wordle Algorithm](https://github.com/dgvai/wordle-algorithm/)  
+   [![GitHub stars](https://badgen.net/github/stars/dgvai/wordle-algorithm)](https://github.com/dgvai/wordle-algorithm/)  [![GitHub forks](https://badgen.net/github/forks/dgvai/wordle-algorithm)](https://github.com/dgvai/wordle-algorithm/)  
+
 #### Composer Packages (Laravel)
  - <a href="https://github.com/dgvai/laravel-adminlte-components">  Laravel AdminLTE Components</a> (Blade Components)  
  <img alt="Total Downloads" src="https://poser.pugx.org/dgvai/laravel-adminlte-components/downloads"> <img alt="Packagist Stars" src="https://img.shields.io/packagist/stars/dgvai/laravel-adminlte-components"> <img alt="Github Forks" src="https://img.shields.io/github/forks/dgvai/laravel-adminlte-components"> 
@@ -41,15 +52,4 @@ Full-stack Software Developer &bull; Machine Learning Enthusiast
 
  - <a href="https://github.com/dgvai/laravel-demo-mode"> Demo Mode</a> (Demo Mode For Laravel)   
  <img alt="Total Downloads" src="https://poser.pugx.org/dgvai/laravel-demo-mode/downloads"> <img alt="Packagist Stars" src="https://img.shields.io/packagist/stars/dgvai/laravel-demo-mode"> <img alt="Github Forks" src="https://img.shields.io/github/forks/dgvai/laravel-demo-mode"> 
-
- #### Applications
-
- - [Pitch Tuner - WebAudio API + ReactJS](https://github.com/dgvai/webaudio-pitch-tuner/)  
-   [![GitHub stars](https://badgen.net/github/stars/dgvai/webaudio-pitch-tuner)](https://github.com/dgvai/webaudio-pitch-tuner/)  [![GitHub forks](https://badgen.net/github/forks/dgvai/webaudio-pitch-tuner)](https://github.com/dgvai/webaudio-pitch-tuner/)  
-
- - [Wordle with Friends - ReactJS + Tailwind](https://github.com/dgvai/wordle-with-friends/)  
-   [![GitHub stars](https://badgen.net/github/stars/dgvai/wordle-with-friends)](https://github.com/dgvai/wordle-with-friends/)  [![GitHub forks](https://badgen.net/github/forks/dgvai/wordle-with-friends)](https://github.com/dgvai/wordle-with-friends/)  
-
- - [Wordle Algorithm](https://github.com/dgvai/wordle-algorithm/)  
-   [![GitHub stars](https://badgen.net/github/stars/dgvai/wordle-algorithm)](https://github.com/dgvai/wordle-algorithm/)  [![GitHub forks](https://badgen.net/github/forks/dgvai/wordle-algorithm)](https://github.com/dgvai/wordle-algorithm/)  
 
