@@ -16,6 +16,12 @@ Full-stack Software Developer &bull; Machine Learning Enthusiast
 
 #### Applications
 
+- [YTubeGPT - AI Assistant for YouTube](https://github.com/dgvai/YTube-GPT/)  
+   [![GitHub stars](https://badgen.net/github/stars/dgvai/YTube-GPT)](https://github.com/dgvai/YTube-GPT/)  [![GitHub forks](https://badgen.net/github/forks/dgvai/webaudio-pitch-tuner)](https://github.com/dgvai/YTube-GPT/)
+
+- [Maccy Menu - GNOME Shell Extension](https://github.com/dgvai/maccymenu-gnome-shell-ext/)  
+   [![GitHub stars](https://badgen.net/github/stars/dgvai/maccymenu-gnome-shell-ext)](https://github.com/dgvai/maccymenu-gnome-shell-ext/)  [![GitHub forks](https://badgen.net/github/forks/dgvai/maccymenu-gnome-shell-ext)](https://github.com/dgvai/maccymenu-gnome-shell-ext/) 
+
  - [Pitch Tuner - WebAudio API + ReactJS](https://github.com/dgvai/webaudio-pitch-tuner/)  
    [![GitHub stars](https://badgen.net/github/stars/dgvai/webaudio-pitch-tuner)](https://github.com/dgvai/webaudio-pitch-tuner/)  [![GitHub forks](https://badgen.net/github/forks/dgvai/webaudio-pitch-tuner)](https://github.com/dgvai/webaudio-pitch-tuner/)  
 
