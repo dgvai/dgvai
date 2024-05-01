@@ -1,7 +1,7 @@
 # Hi, I am Jalal Uddin 👋
 Full-stack Software Developer &bull; Machine Learning Enthusiast 
 
-[![Gmail Badge](https://img.shields.io/badge/-Mail%20Me-c14438?style=flat&logo=Gmail&logoColor=white)](mailto:dgvai.hridoy@gmail.com) [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-0072b1?style=flat&logo=Linkedin&logoColor=white)](https://linkedin.com/in/dgvai/)  [![Twitter Badge](https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white)](https://twitter.com/dgvai/)  [![Reddit Badge](https://img.shields.io/badge/Reddit-FF4500?style=flat&logo=reddit&logoColor=white)](https://reddit.com/u/dgvai/)  [![Facebook Badge](https://img.shields.io/badge/Facebook-1877F2?style=flat&logo=facebook&logoColor=white)](https://facebook.com/dgvai.hridoy/) 
+[![Gmail Badge](https://img.shields.io/badge/-Mail%20Me-c14438?style=flat&logo=Gmail&logoColor=white)](mailto:dgvai.hridoy@gmail.com) [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-0072b1?style=flat&logo=Linkedin&logoColor=white)](https://linkedin.com/in/myselfjalal/)
 
 </p>
 
