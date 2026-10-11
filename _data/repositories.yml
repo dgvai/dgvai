@@ -1,14 +1,14 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - dgvai
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - dgvai/YTube-GPT
+  - dgvai/maccymenu-gnome-shell-ext
+  - dgvai/webaudio-pitch-tuner
+  - dgvai/wordle-with-friends
+  - dgvai/wordle-algorithm
+  - dgvai/laravel-adminlte-components
+  - dgvai/laravel-sslcommerz
+  - dgvai/laravel-nagad
