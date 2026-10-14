@@ -1,4 +1,6 @@
-{%- assign nav = "Home|/,Publications|/publications/" | split: "," -%}
+{%- assign nav_items = "Home|/,Publications|/publications/" -%}
+{%- if site.data.notes.size > 0 -%}{%- assign nav_items = nav_items | append: ",Sticky Notes|/sticky-notes/" -%}{%- endif -%}
+{%- assign nav = nav_items | split: "," -%}
 <header class="site-header">
   <div class="container header-inner">
     <a class="brand" href="{{ '/' | relative_url }}">{{ site.data.profile.name }}</a>
