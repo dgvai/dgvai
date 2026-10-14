@@ -57,7 +57,7 @@ permalink: /cv/
 <section class="cv-section" aria-labelledby="cv-publications">
   <h2 id="cv-publications" class="section-title">Publications</h2>
   <ol class="cv-pubs">
-    {%- for pub in site.data.publications -%}
+    {%- for pub in site.data.publications.papers -%}
       <li>
         {%- for author in pub.authors -%}
           {%- if p.highlight_names contains author -%}<strong>{{ author }}</strong>{%- else -%}{{ author }}{%- endif -%}
