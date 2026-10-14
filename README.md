@@ -1,62 +1,35 @@
-# Hi, I am Jalal Uddin 👋
+# dgvai.github.io
 
-Full-stack Software Developer &bull; Machine Learning Enthusiast
+Source for [dgvai.github.io](https://dgvai.github.io), the academic website of Jalal Uddin.
 
-[![Gmail Badge](https://img.shields.io/badge/-Mail%20Me-c14438?style=flat&logo=Gmail&logoColor=white)](mailto:dgvai.hridoy@gmail.com) [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-0072b1?style=flat&logo=Linkedin&logoColor=white)](https://linkedin.com/in/myselfjalal/)
+It is a plain Jekyll site that GitHub Pages builds directly from the `main` branch. There is no build workflow, theme gem or JavaScript framework.
 
-</p>
+## Editing content
 
-## Github Stats
+Almost everything lives in `_data/`:
 
-<p align=left> <img src=https://komarev.com/ghpvc/?username=dgvai alt=dgvai /></p>
+| File                    | What it holds                                                  |
+| ----------------------- | -------------------------------------------------------------- |
+| `profile.yml`           | Name, title, affiliation, photo, research interests, links     |
+| `news.yml`              | News items on the home page (newest first)                     |
+| `publications.yml`      | Papers; `selected: true` puts one on the home page             |
+| `projects.yml`          | Research projects                                              |
+| `software.yml`          | Open-source apps and Laravel packages                          |
+| `cv.yml`                | Education, experience, service, awards, skills for the CV page |
 
-[![github stats](https://github-readme-stats.vercel.app/api?username=dgvai)](https://github.com/anuraghazra/github-readme-stats)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=dgvai&layout=compact)](https://github.com/dgvai/github-readme-stats)
+The home page bio is in `index.html`. Styles are in `assets/css/main.css`.
 
-### Open-source Contributions:
+## Running locally
 
-#### Applications
+```bash
+bundle install
+bundle exec jekyll serve
+```
 
-- [YTubeGPT - AI Assistant for YouTube](https://github.com/dgvai/YTube-GPT/)  
-  [![GitHub stars](https://badgen.net/github/stars/dgvai/YTube-GPT)](https://github.com/dgvai/YTube-GPT/) [![GitHub forks](https://badgen.net/github/forks/dgvai//YTube-GPT)](https://github.com/dgvai/YTube-GPT/)
+Then open <http://localhost:4000>.
 
-- [Maccy Menu - GNOME Shell Extension](https://github.com/dgvai/maccymenu-gnome-shell-ext/)  
-  [![GitHub stars](https://badgen.net/github/stars/dgvai/maccymenu-gnome-shell-ext)](https://github.com/dgvai/maccymenu-gnome-shell-ext/) [![GitHub forks](https://badgen.net/github/forks/dgvai/maccymenu-gnome-shell-ext)](https://github.com/dgvai/maccymenu-gnome-shell-ext/)
+## Deployment
 
-- [Pitch Tuner - WebAudio API + ReactJS](https://github.com/dgvai/webaudio-pitch-tuner/)  
-  [![GitHub stars](https://badgen.net/github/stars/dgvai/webaudio-pitch-tuner)](https://github.com/dgvai/webaudio-pitch-tuner/) [![GitHub forks](https://badgen.net/github/forks/dgvai/webaudio-pitch-tuner)](https://github.com/dgvai/webaudio-pitch-tuner/)
+In the repository settings under **Pages**, set the source to **Deploy from a branch**, branch `main`, folder `/ (root)`. Every push to `main` republishes the site.
 
-- [Wordle with Friends - ReactJS + Tailwind](https://github.com/dgvai/wordle-with-friends/)  
-  [![GitHub stars](https://badgen.net/github/stars/dgvai/wordle-with-friends)](https://github.com/dgvai/wordle-with-friends/) [![GitHub forks](https://badgen.net/github/forks/dgvai/wordle-with-friends)](https://github.com/dgvai/wordle-with-friends/)
-
-- [Wordle Algorithm](https://github.com/dgvai/wordle-algorithm/)  
-  [![GitHub stars](https://badgen.net/github/stars/dgvai/wordle-algorithm)](https://github.com/dgvai/wordle-algorithm/) [![GitHub forks](https://badgen.net/github/forks/dgvai/wordle-algorithm)](https://github.com/dgvai/wordle-algorithm/)
-
-#### Composer Packages (Laravel)
-
-- <a href="https://github.com/dgvai/laravel-adminlte-components"> Laravel AdminLTE Components</a> (Blade Components)  
-  <img alt="Total Downloads" src="https://poser.pugx.org/dgvai/laravel-adminlte-components/downloads"> <img alt="Packagist Stars" src="https://img.shields.io/packagist/stars/dgvai/laravel-adminlte-components"> <img alt="Github Forks" src="https://img.shields.io/github/forks/dgvai/laravel-adminlte-components">
-
-- <a href="https://github.com/dgvai/laravel-sslcommerz"> Laravel SSLCommerz</a> (Payment Gateway)  
-  <img alt="Total Downloads" src="https://poser.pugx.org/dgvai/laravel-sslcommerz/downloads"> <img alt="Packagist Stars" src="https://img.shields.io/packagist/stars/dgvai/laravel-sslcommerz"> <img alt="Github Forks" src="https://img.shields.io/github/forks/dgvai/laravel-sslcommerz">
-
-- <a href="https://github.com/dgvai/laravel-nagad"> Laravel Nagad</a> (Payment Gateway)  
-  <img alt="Total Downloads" src="https://poser.pugx.org/dgvai/laravel-nagad/downloads"> <img alt="Packagist Stars" src="https://img.shields.io/packagist/stars/dgvai/laravel-nagad"> <img alt="Github Forks" src="https://img.shields.io/github/forks/dgvai/laravel-nagad">
-
-- <a href="https://github.com/dgvai/laravel-user-review"> Laravel User Review</a> (User based Review System)  
-  <img alt="Total Downloads" src="https://poser.pugx.org/dgvai/laravel-user-review/downloads"> <img alt="Packagist Stars" src="https://img.shields.io/packagist/stars/dgvai/laravel-user-review"> <img alt="Github Forks" src="https://img.shields.io/github/forks/dgvai/laravel-user-review">
-
-- <a href="https://github.com/dgvai/laravel-notification-channel-onnorokomsms"> Laravel OnnorokomSMS</a> (Notification Channel)  
-  <img alt="Total Downloads" src="https://poser.pugx.org/dgvai/laravel-notification-channel-onnorokomsms/downloads"> <img alt="Packagist Stars" src="https://img.shields.io/packagist/stars/dgvai/laravel-notification-channel-onnorokomsms"> <img alt="Github Forks" src="https://img.shields.io/github/forks/dgvai/laravel-notification-channel-onnorokomsms">
-
-- <a href="https://github.com/dgvai/laravel-notification-channel-isms"> Laravel iSMS</a> (Notification Channel)  
-  <img alt="Total Downloads" src="https://poser.pugx.org/dgvai/laravel-notification-channel-isms/downloads"> <img alt="Packagist Stars" src="https://img.shields.io/packagist/stars/dgvai/laravel-notification-channel-isms"> <img alt="Github Forks" src="https://img.shields.io/github/forks/dgvai/laravel-notification-channel-isms">
-
-- <a href="https://github.com/dgvai/laravel-invoicer"> Invoicer</a> (Invoice Generator)  
-  <img alt="Total Downloads" src="https://poser.pugx.org/dgvai/laravel-invoicer/downloads"> <img alt="Packagist Stars" src="https://img.shields.io/packagist/stars/dgvai/laravel-invoicer"> <img alt="Github Forks" src="https://img.shields.io/github/forks/dgvai/laravel-invoicer">
-
-- <a href="https://github.com/dgvai/larataller"> Larataller</a> (Laravel Site Installer)  
-  <img alt="Total Downloads" src="https://poser.pugx.org/dgvai/larataller/downloads"> <img alt="Packagist Stars" src="https://img.shields.io/packagist/stars/dgvai/larataller"> <img alt="Github Forks" src="https://img.shields.io/github/forks/dgvai/larataller">
-
-- <a href="https://github.com/dgvai/laravel-demo-mode"> Demo Mode</a> (Demo Mode For Laravel)  
-  <img alt="Total Downloads" src="https://poser.pugx.org/dgvai/laravel-demo-mode/downloads"> <img alt="Packagist Stars" src="https://img.shields.io/packagist/stars/dgvai/laravel-demo-mode"> <img alt="Github Forks" src="https://img.shields.io/github/forks/dgvai/laravel-demo-mode">
+Icons are from [Font Awesome Free](https://fontawesome.com) (CC BY 4.0).

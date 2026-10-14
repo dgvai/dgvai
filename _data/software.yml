@@ -1,0 +1,51 @@
+# Open-source work. `repo` is owner/name on GitHub.
+apps:
+  - name: YTubeGPT
+    description: AI assistant for YouTube.
+    repo: dgvai/YTube-GPT
+    tags: [AI, LLM]
+  - name: Maccy Menu
+    description: GNOME Shell extension.
+    repo: dgvai/maccymenu-gnome-shell-ext
+    tags: [GNOME Shell]
+  - name: Pitch Tuner
+    description: Pitch tuner built with the Web Audio API and React.
+    repo: dgvai/webaudio-pitch-tuner
+    tags: [React, Web Audio]
+  - name: Wordle with Friends
+    description: Wordle game built with React and Tailwind.
+    repo: dgvai/wordle-with-friends
+    tags: [React, Tailwind]
+  - name: Wordle Algorithm
+    description: Wordle algorithm implementation.
+    repo: dgvai/wordle-algorithm
+    tags: [Algorithms]
+
+packages:
+  - name: Laravel AdminLTE Components
+    description: Blade components for AdminLTE.
+    repo: dgvai/laravel-adminlte-components
+  - name: Laravel SSLCommerz
+    description: Payment gateway integration.
+    repo: dgvai/laravel-sslcommerz
+  - name: Laravel Nagad
+    description: Payment gateway integration.
+    repo: dgvai/laravel-nagad
+  - name: Laravel User Review
+    description: User-based review system.
+    repo: dgvai/laravel-user-review
+  - name: Laravel OnnorokomSMS
+    description: Notification channel.
+    repo: dgvai/laravel-notification-channel-onnorokomsms
+  - name: Laravel iSMS
+    description: Notification channel.
+    repo: dgvai/laravel-notification-channel-isms
+  - name: Invoicer
+    description: Invoice generator.
+    repo: dgvai/laravel-invoicer
+  - name: Larataller
+    description: Laravel site installer.
+    repo: dgvai/larataller
+  - name: Demo Mode
+    description: Demo mode for Laravel apps.
+    repo: dgvai/laravel-demo-mode

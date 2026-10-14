@@ -1,0 +1,10 @@
+{%- comment -%} Year · item · place rows: {% include cv-list.html id="awards" title="Awards" items=site.data.cv.awards %} {%- endcomment -%}
+<section class="cv-section" aria-labelledby="cv-{{ include.id }}">
+  <h2 id="cv-{{ include.id }}" class="section-title">{{ include.title }}</h2>
+  {%- for x in include.items -%}
+    <div class="cv-row cv-row-compact">
+      <span class="cv-dates">{{ x.year }}</span>
+      <p>{{ x.what }} <span class="muted">· {{ x.where }}</span></p>
+    </div>
+  {%- endfor -%}
+</section>

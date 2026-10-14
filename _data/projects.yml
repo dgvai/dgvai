@@ -1,0 +1,35 @@
+# Research projects, newest first. `publication` links to a key in publications.yml.
+- title: Hybrid Mammography Processing & Lesion Classification
+  year: 2022
+  context: Undergraduate thesis · Supervised by Sumaya Ishrat Moyeen, RUET
+  summary: >-
+    A full mammography pipeline on the CBIS-DDSM dataset (TCIA), including pectoral-muscle removal,
+    feeding a hybrid EfficientNetV2 + SVM classifier for cancerous lesions.
+  tags: [Medical Imaging, Deep Learning, Computer Vision]
+  status: Manuscript under review at SN Computer Science
+
+- title: DOTA2 Winner Prediction with Stacked Bi-LSTMs
+  year: 2022
+  context: Data analysis research · Supervised by Md. Mehedi Hasan, RUET
+  summary: >-
+    Collected 27,000 professional matches through OpenAPI, trained a stacked bidirectional LSTM to
+    predict the winning team, and served it in a web app for real-time prediction.
+  tags: [Sequence Models, Data Analysis, Web App]
+  publication: uddin2022dota2
+
+- title: Industrial Safety & Health Monitoring for Industry 4.0
+  year: 2022
+  context: Embedded systems project · Supervised by Prangon Das, RUET
+  summary: >-
+    A deep-learning safety detector trained on helmeted and masked faces, paired with a Streamlit
+    server for real-time worker health monitoring and sensor visualization.
+  tags: [Computer Vision, IoT, Streamlit]
+  publication: das2022industrial
+
+- title: IoT Railway Gate Control & Monitoring
+  year: 2022
+  context: Embedded systems project · Supervised by S. H. Abhi, RUET
+  summary: >-
+    A sensor-driven, Arduino-controlled railway gate with live train updates streamed over a
+    NodeMCU module.
+  tags: [Embedded Systems, Arduino, IoT]
