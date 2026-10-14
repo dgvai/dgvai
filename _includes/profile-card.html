@@ -12,7 +12,6 @@
       {%- for link in p.links -%}
         <li><a href="{{ link.url }}">{% include icon.html name=link.icon %}<span>{{ link.label }}</span></a></li>
       {%- endfor -%}
-      <li><a href="{{ '/cv/' | relative_url }}">{% include icon.html name="cv" %}<span>Curriculum Vitae</span></a></li>
     </ul>
   </div>
 </aside>

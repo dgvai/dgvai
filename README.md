@@ -17,6 +17,8 @@ Almost everything lives in `_data/`:
 | `software.yml`          | Open-source apps and Laravel packages                          |
 | `cv.yml`                | Education, experience, service, awards, skills for the CV page |
 
+The Projects and CV pages (`projects.html`, `cv.html`) are hidden for now with `published: false`. To bring one back, remove that line and add the page to the nav list in `_includes/header.html`.
+
 The home page bio is in `index.html`. Styles are in `assets/css/main.css`.
 
 ## Running locally
