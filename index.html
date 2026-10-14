@@ -35,7 +35,7 @@ title: Jalal Uddin
         <h2 id="pubs-heading" class="section-title">Selected publications</h2>
         <a class="section-more" href="{{ '/publications/' | relative_url }}">All publications &rarr;</a>
       </div>
-      {%- assign selected = site.data.publications | where: "selected", true -%}
+      {%- assign selected = site.data.publications.papers | where: "selected", true -%}
       {%- for pub in selected -%}
         {% include publication.html pub=pub %}
       {%- endfor -%}

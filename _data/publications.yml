@@ -1,48 +1,68 @@
-# Newest first. Optional fields: pdf, doi, url, code, selected, note, bibtex.
-- key: uddin2022dota2
-  title: DOTA2 Winner Team Prediction based on Stacked Bidirectional LSTM Network
-  authors: [J. Uddin, I. Fahmida, S. I. Moyeen, M. Mehedi Hasan]
-  venue: 2022 4th International Conference on Electrical, Computer & Telecommunication Engineering (ICECTE)
-  abbr: ICECTE
-  year: 2022
-  type: Conference
-  selected: true
-  bibtex: |
-    @inproceedings{uddin2022dota2,
-      title     = {DOTA2 Winner Team Prediction based on Stacked Bidirectional LSTM Network},
-      author    = {Uddin, J. and Fahmida, I. and Moyeen, S. I. and Hasan, M. Mehedi},
-      booktitle = {2022 4th International Conference on Electrical, Computer \& Telecommunication Engineering (ICECTE)},
-      year      = {2022}
-    }
+# Publications page and home page "Selected publications".
+#
+# `intro` is the line under the page title (Markdown).
+# Each paper under `papers` takes:
+#   key       unique id, used for the #anchor link (e.g. smith2024title)
+#   title     paper title
+#   authors   list of names; names in profile.yml `highlight_names` are bolded
+#   venue     full conference or journal name
+#   abbr      short badge text (e.g. CVPR); falls back to `type`
+#   year      publication year; the page groups papers by year automatically
+#   type      Conference, Journal, Preprint, ...
+# Optional:
+#   selected: true   also show it on the home page
+#   url, pdf, doi, code, note, bibtex
+# List papers newest first within a year.
 
-- key: das2022industrial
-  title: An Intelligent Industrial Safety and Health Monitoring System for Industry 4.0
-  authors: [P. Das, S. H. Abhi, F. I. Z. Sureed, J. Uddin, S. Jahan, R. Zaman, M. A. K. Niloy]
-  venue: 2022 International Conference on Mechanical, Industrial and Energy Engineering (ICMIEE)
-  abbr: ICMIEE
-  year: 2022
-  type: Conference
-  selected: true
-  bibtex: |
-    @inproceedings{das2022industrial,
-      title     = {An Intelligent Industrial Safety and Health Monitoring System for Industry 4.0},
-      author    = {Das, P. and Abhi, S. H. and Sureed, F. I. Z. and Uddin, J. and Jahan, S. and Zaman, R. and Niloy, M. A. K.},
-      booktitle = {2022 International Conference on Mechanical, Industrial and Energy Engineering (ICMIEE)},
-      year      = {2022}
-    }
+intro: >-
+  Conference papers and articles, newest first. Also on
+  [Google Scholar](https://scholar.google.com/citations?user=UM6hcO0AAAAJ).
 
-- key: mazumder2022navigation
-  title: Performance Evaluation of Navigation Schemes for Autonomous Exploration of a Secondary Explorer Rover in a Martian Lava Cave
-  authors: [A. Mazumder, M. A. K. Niloy, M. F. Shahed, Z. A. Madiha, F. R. Badal, J. Uddin, M. Z. Hossain]
-  venue: 2022 IEEE Region 10 Symposium (TENSYMP)
-  abbr: TENSYMP
-  year: 2022
-  type: Conference
-  selected: true
-  bibtex: |
-    @inproceedings{mazumder2022navigation,
-      title     = {Performance Evaluation of Navigation Schemes for Autonomous Exploration of a Secondary Explorer Rover in a Martian Lava Cave},
-      author    = {Mazumder, A. and Niloy, M. A. K. and Shahed, M. F. and Madiha, Z. A. and Badal, F. R. and Uddin, J. and Hossain, M. Z.},
-      booktitle = {2022 IEEE Region 10 Symposium (TENSYMP)},
-      year      = {2022}
-    }
+papers:
+  - key: uddin2022dota2
+    title: DOTA2 Winner Team Prediction based on Stacked Bidirectional LSTM Network
+    authors: [J. Uddin, I. Fahmida, S. I. Moyeen, M. Mehedi Hasan]
+    venue: 2022 4th International Conference on Electrical, Computer & Telecommunication Engineering (ICECTE)
+    abbr: ICECTE
+    year: 2022
+    type: Conference
+    selected: true
+    bibtex: |
+      @inproceedings{uddin2022dota2,
+        title     = {DOTA2 Winner Team Prediction based on Stacked Bidirectional LSTM Network},
+        author    = {Uddin, J. and Fahmida, I. and Moyeen, S. I. and Hasan, M. Mehedi},
+        booktitle = {2022 4th International Conference on Electrical, Computer \& Telecommunication Engineering (ICECTE)},
+        year      = {2022}
+      }
+
+  - key: das2022industrial
+    title: An Intelligent Industrial Safety and Health Monitoring System for Industry 4.0
+    authors: [P. Das, S. H. Abhi, F. I. Z. Sureed, J. Uddin, S. Jahan, R. Zaman, M. A. K. Niloy]
+    venue: 2022 International Conference on Mechanical, Industrial and Energy Engineering (ICMIEE)
+    abbr: ICMIEE
+    year: 2022
+    type: Conference
+    selected: true
+    bibtex: |
+      @inproceedings{das2022industrial,
+        title     = {An Intelligent Industrial Safety and Health Monitoring System for Industry 4.0},
+        author    = {Das, P. and Abhi, S. H. and Sureed, F. I. Z. and Uddin, J. and Jahan, S. and Zaman, R. and Niloy, M. A. K.},
+        booktitle = {2022 International Conference on Mechanical, Industrial and Energy Engineering (ICMIEE)},
+        year      = {2022}
+      }
+
+  - key: mazumder2022navigation
+    title: Performance Evaluation of Navigation Schemes for Autonomous Exploration of a Secondary Explorer Rover in a Martian Lava Cave
+    authors: [A. Mazumder, M. A. K. Niloy, M. F. Shahed, Z. A. Madiha, F. R. Badal, J. Uddin, M. Z. Hossain]
+    venue: 2022 IEEE Region 10 Symposium (TENSYMP)
+    abbr: TENSYMP
+    year: 2022
+    type: Conference
+    selected: true
+    bibtex: |
+      @inproceedings{mazumder2022navigation,
+        title     = {Performance Evaluation of Navigation Schemes for Autonomous Exploration of a Secondary Explorer Rover in a Martian Lava Cave},
+        author    = {Mazumder, A. and Niloy, M. A. K. and Shahed, M. F. and Madiha, Z. A. and Badal, F. R. and Uddin, J. and Hossain, M. Z.},
+        booktitle = {2022 IEEE Region 10 Symposium (TENSYMP)},
+        year      = {2022}
+      }

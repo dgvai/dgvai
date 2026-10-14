@@ -12,7 +12,7 @@ Almost everything lives in `_data/`:
 | ----------------------- | -------------------------------------------------------------- |
 | `profile.yml`           | Name, title, affiliation, photo, home page bio, research interests, links |
 | `news.yml`              | News items on the home page (newest first)                     |
-| `publications.yml`      | Papers; `selected: true` puts one on the home page             |
+| `publications.yml`      | Publications page intro and papers; `selected: true` puts one on the home page |
 | `projects.yml`          | Research projects                                              |
 | `software.yml`          | Open-source apps and Laravel packages                          |
 | `notes.yml`             | Short thoughts for the Sticky Notes page, optionally linking a Threads post |
