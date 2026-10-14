@@ -10,7 +10,7 @@ Almost everything lives in `_data/`:
 
 | File                    | What it holds                                                  |
 | ----------------------- | -------------------------------------------------------------- |
-| `profile.yml`           | Name, title, affiliation, photo, research interests, links     |
+| `profile.yml`           | Name, title, affiliation, photo, home page bio, research interests, links |
 | `news.yml`              | News items on the home page (newest first)                     |
 | `publications.yml`      | Papers; `selected: true` puts one on the home page             |
 | `projects.yml`          | Research projects                                              |
@@ -20,7 +20,7 @@ Almost everything lives in `_data/`:
 
 The Projects and CV pages (`projects.html`, `cv.html`) are hidden for now with `published: false`. To bring one back, remove that line and add the page to the nav list in `_includes/header.html`.
 
-The home page bio is in `index.html`. Styles are in `assets/css/main.css`.
+Styles are in `assets/css/main.css`.
 
 ## Running locally
 

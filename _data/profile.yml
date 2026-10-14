@@ -7,6 +7,23 @@ location: Marietta, Georgia, USA
 email: juddin3@students.kennesaw.edu
 photo: /assets/img/profile.jpg
 
+# Home page bio, in Markdown. `intro` is the large opening paragraph;
+# each item under `bio` becomes one paragraph below it.
+intro: >-
+  I am a Ph.D. student in Computer Science at Kennesaw State University, where I build and study
+  **mixed-reality systems** as a Graduate Research Assistant. My research sits at the
+  intersection of **computer vision** and **mixed reality**.
+
+bio:
+  - >-
+    I earned my B.Sc. in Mechatronics Engineering from Rajshahi University of Engineering & Technology (RUET)
+    in 2022. As an undergraduate I worked on deep learning for computer vision, image processing and data analysis,
+    including a hybrid EfficientNetV2&nbsp;+&nbsp;SVM pipeline for classifying cancerous lesions in mammograms.
+  - >-
+    Before my Ph.D., I spent nearly two years as a software engineer at Sazim Tech, leading projects across
+    full-stack development, data analysis and DevOps. I also maintain a number of
+    [open-source projects](https://github.com/dgvai).
+
 # Author names to highlight in publication lists.
 highlight_names:
   - J. Uddin
