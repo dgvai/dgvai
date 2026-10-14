@@ -1,5 +1,5 @@
 {%- assign nav_items = "Home|/,Publications|/publications/" -%}
-{%- if site.data.notes.size > 0 -%}{%- assign nav_items = nav_items | append: ",Notes|/notes/" -%}{%- endif -%}
+{%- if site.data.notes.size > 0 -%}{%- assign nav_items = nav_items | append: ",Sticky Notes|/sticky-notes/" -%}{%- endif -%}
 {%- assign nav = nav_items | split: "," -%}
 <header class="site-header">
   <div class="container header-inner">
