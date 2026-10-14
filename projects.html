@@ -1,0 +1,55 @@
+---
+layout: default
+title: Projects
+permalink: /projects/
+---
+<header class="page-header">
+  <h1>Projects</h1>
+  <p class="page-sub">Research projects and open-source software.</p>
+</header>
+
+<section aria-labelledby="research">
+  <h2 id="research" class="section-title">Research</h2>
+  <div class="card-grid">
+    {%- for project in site.data.projects -%}
+      <article class="card">
+        <p class="card-kicker">{{ project.year }}</p>
+        <h3 class="card-title">{{ project.title }}</h3>
+        <p class="card-context">{{ project.context }}</p>
+        <p>{{ project.summary }}</p>
+        {%- if project.status -%}<p class="card-status">{{ project.status }}</p>{%- endif -%}
+        <ul class="tags tags-small">
+          {%- for tag in project.tags -%}<li>{{ tag }}</li>{%- endfor -%}
+        </ul>
+        {%- if project.publication -%}
+          <a class="card-link" href="{{ '/publications/' | relative_url }}#{{ project.publication }}">Read the paper &rarr;</a>
+        {%- endif -%}
+      </article>
+    {%- endfor -%}
+  </div>
+</section>
+
+<section aria-labelledby="software">
+  <h2 id="software" class="section-title">Open-source software</h2>
+  <div class="card-grid card-grid-3">
+    {%- for app in site.data.software.apps -%}
+      <a class="card card-repo" href="https://github.com/{{ app.repo }}">
+        <h3 class="card-title">{{ app.name }} <span class="card-arrow">{% include icon.html name="external" %}</span></h3>
+        <p>{{ app.description }}</p>
+        <ul class="tags tags-small">
+          {%- for tag in app.tags -%}<li>{{ tag }}</li>{%- endfor -%}
+        </ul>
+      </a>
+    {%- endfor -%}
+  </div>
+
+  <h3 class="subsection-title">Laravel packages</h3>
+  <ul class="package-list">
+    {%- for pkg in site.data.software.packages -%}
+      <li>
+        <a href="https://github.com/{{ pkg.repo }}">{{ pkg.name }}</a>
+        <span>{{ pkg.description }}</span>
+      </li>
+    {%- endfor -%}
+  </ul>
+</section>

@@ -1,0 +1,18 @@
+{%- assign p = site.data.profile -%}
+<aside class="profile">
+  <img class="profile-photo" src="{{ p.photo | relative_url }}" alt="Portrait of {{ p.name }}" width="720" height="720">
+  <div class="profile-text">
+    <h1 class="profile-name">{{ p.name }}</h1>
+    <p class="profile-title">{{ p.title }}</p>
+    <p class="profile-meta">
+      {% include icon.html name="cap" %}<a href="{{ p.affiliation_url }}">{{ p.affiliation }}</a>
+    </p>
+    <p class="profile-meta">{% include icon.html name="location" %}{{ p.location }}</p>
+    <ul class="profile-links">
+      {%- for link in p.links -%}
+        <li><a href="{{ link.url }}">{% include icon.html name=link.icon %}<span>{{ link.label }}</span></a></li>
+      {%- endfor -%}
+      <li><a href="{{ '/cv/' | relative_url }}">{% include icon.html name="cv" %}<span>Curriculum Vitae</span></a></li>
+    </ul>
+  </div>
+</aside>

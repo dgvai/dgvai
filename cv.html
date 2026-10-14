@@ -1,0 +1,117 @@
+---
+layout: default
+title: CV
+permalink: /cv/
+---
+{%- assign p = site.data.profile -%}
+{%- assign cv = site.data.cv -%}
+<header class="page-header cv-header">
+  <div>
+    <h1>{{ p.name }}</h1>
+    <p class="page-sub">{{ p.title }} · {{ p.affiliation }} · {{ p.location }}</p>
+    <p class="cv-contact">
+      {%- for link in p.links -%}
+        <a href="{{ link.url }}">{% if link.icon == "email" %}{{ p.email }}{% else %}{{ link.label }}{% endif %}</a>
+        {%- unless forloop.last %} · {% endunless -%}
+      {%- endfor -%}
+    </p>
+  </div>
+  <button class="button no-print" type="button" data-print>{% include icon.html name="cv" %} Save as PDF</button>
+</header>
+
+<section class="cv-section" aria-labelledby="cv-interests">
+  <h2 id="cv-interests" class="section-title">Research interests</h2>
+  <p>{{ p.interests | join: " · " }}</p>
+</section>
+
+<section class="cv-section" aria-labelledby="cv-education">
+  <h2 id="cv-education" class="section-title">Education</h2>
+  {%- for e in cv.education -%}
+    <div class="cv-row">
+      <span class="cv-dates">{{ e.dates }}</span>
+      <div>
+        <p class="cv-title">{{ e.degree }}</p>
+        <p class="cv-sub">{{ e.school }}, {{ e.location }}</p>
+        {%- if e.details -%}<ul>{%- for d in e.details -%}<li>{{ d }}</li>{%- endfor -%}</ul>{%- endif -%}
+      </div>
+    </div>
+  {%- endfor -%}
+</section>
+
+<section class="cv-section" aria-labelledby="cv-experience">
+  <h2 id="cv-experience" class="section-title">Experience</h2>
+  {%- for x in cv.experience -%}
+    <div class="cv-row">
+      <span class="cv-dates">{{ x.dates }}</span>
+      <div>
+        <p class="cv-title">{{ x.role }}</p>
+        <p class="cv-sub">{{ x.org }}, {{ x.location }}</p>
+        <ul>{%- for d in x.details -%}<li>{{ d }}</li>{%- endfor -%}</ul>
+      </div>
+    </div>
+  {%- endfor -%}
+</section>
+
+<section class="cv-section" aria-labelledby="cv-publications">
+  <h2 id="cv-publications" class="section-title">Publications</h2>
+  <ol class="cv-pubs">
+    {%- for pub in site.data.publications -%}
+      <li>
+        {%- for author in pub.authors -%}
+          {%- if p.highlight_names contains author -%}<strong>{{ author }}</strong>{%- else -%}{{ author }}{%- endif -%}
+          {%- unless forloop.last -%}, {% endunless -%}
+        {%- endfor -%}.
+        “{{ pub.title }}.” <em>{{ pub.venue }}</em>, {{ pub.year }}.
+      </li>
+    {%- endfor -%}
+  </ol>
+</section>
+
+<section class="cv-section" aria-labelledby="cv-research">
+  <h2 id="cv-research" class="section-title">Research projects</h2>
+  {%- for project in site.data.projects -%}
+    <div class="cv-row">
+      <span class="cv-dates">{{ project.year }}</span>
+      <div>
+        <p class="cv-title">{{ project.title }}</p>
+        <p class="cv-sub">{{ project.context }}</p>
+        <p class="cv-text">{{ project.summary }}{% if project.status %} {{ project.status }}.{% endif %}</p>
+      </div>
+    </div>
+  {%- endfor -%}
+</section>
+
+<section class="cv-section" aria-labelledby="cv-leadership">
+  <h2 id="cv-leadership" class="section-title">Leadership</h2>
+  {%- for x in cv.leadership -%}
+    <div class="cv-row">
+      <span class="cv-dates">{{ x.dates }}</span>
+      <div>
+        <p class="cv-title">{{ x.role }}</p>
+        <p class="cv-sub">{{ x.org }}</p>
+        <ul>{%- for d in x.details -%}<li>{{ d }}</li>{%- endfor -%}</ul>
+      </div>
+    </div>
+  {%- endfor -%}
+</section>
+
+{% include cv-list.html id="service" title="Service &amp; volunteering" items=cv.service %}
+{% include cv-list.html id="awards" title="Awards" items=cv.awards %}
+{% include cv-list.html id="certificates" title="Certificates" items=cv.certificates %}
+
+<section class="cv-section" aria-labelledby="cv-skills">
+  <h2 id="cv-skills" class="section-title">Skills</h2>
+  <dl class="skills">
+    {%- for s in cv.skills -%}
+      <dt>{{ s.area }}</dt>
+      <dd>{{ s.items }}</dd>
+    {%- endfor -%}
+    <dt>Spoken languages</dt>
+    <dd>{{ cv.languages | join: ", " }}</dd>
+  </dl>
+</section>
+
+<section class="cv-section" aria-labelledby="cv-coursework">
+  <h2 id="cv-coursework" class="section-title">Selected coursework</h2>
+  <p>{{ cv.coursework | join: " · " }}</p>
+</section>

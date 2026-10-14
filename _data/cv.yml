@@ -1,299 +1,136 @@
-cv:
-  name: Jalal Uddin
-  label: Ph.D. Student in Computer Science
-  email: juddin3@students.kennesaw.edu
-  location: Marietta, GA, USA
-  image: ""
-  summary: Ph.D. student in Computer Science at Kennesaw State University with a background in Mechatronics Engineering, programming, and software engineering. Experienced in machine learning and deep learning for computer vision, image processing, and data analysis. Proficient in Python with TensorFlow, PyTorch, and OpenCV.
+education:
+  - degree: Ph.D. in Computer Science
+    school: Kennesaw State University
+    location: Marietta, Georgia, USA
+    dates: 2024 – Present
+  - degree: B.Sc. in Mechatronics Engineering
+    school: Rajshahi University of Engineering & Technology (RUET)
+    location: Rajshahi, Bangladesh
+    dates: 2017 – 2022
+    details: ["CGPA: 3.63 / 4.00"]
+  - degree: Higher Secondary Certificate (HSC)
+    school: Uttara High School & College
+    location: Dhaka, Bangladesh
+    dates: 2014 – 2016
+    details: ["GPA: 5.00 / 5.00"]
 
-  social_networks:
-    - network: GitHub
-      username: dgvai
-    - network: LinkedIn
-      username: myselfjalal
-    - network: Google Scholar
-      username: UM6hcO0AAAAJ
+experience:
+  - role: Graduate Research Assistant
+    org: Kennesaw State University
+    location: Marietta, GA
+    dates: Aug 2024 – Present
+    details:
+      - Mixed-reality system development
+      - Research in MR/AR/VR
+  - role: Software Engineer
+    org: Sazim Tech Ltd.
+    location: Dhaka, Bangladesh
+    dates: Sep 2022 – Jun 2024
+    details:
+      - Full-stack software development and data analysis with Node.js and Python
+      - DevOps, CI/CD and test-driven development; project lead
+      - Mentored engineers in the internship program
+  - role: API Developer (Remote, Contract)
+    org: Charity Guard ApS
+    location: Odense, Denmark
+    dates: Aug 2020 – Aug 2021
+    details:
+      - CPR API development with Laravel and Python
+      - Documentation and maintenance
+  - role: Full-stack Developer (Part-time)
+    org: Step-up IT & Training Institute
+    location: Rajshahi, Bangladesh
+    dates: Jul 2019 – Sep 2020
+    details:
+      - Dedicated backend engineer (PHP/Laravel)
+      - Design, development, debugging and deployment
 
-  address:
-    city: Marietta
-    region: Georgia
-    countryCode: US
+leadership:
+  - role: Technical Secretary (Software)
+    org: Robotic Society of RUET
+    dates: 2018 – 2022
+    details:
+      - "2021 – 2022: Technical Secretary (Software)"
+      - "2019 – 2020: Assistant Technical Secretary (Software)"
+      - "2018 – 2019: IT Manager"
+  - role: Software Team Member
+    org: Team Ogrodoot, RUET
+    dates: "2018"
+    details:
+      - Indian Rover Challenge (Jan 2018) and European Rover Challenge (Sep 2018)
 
-  sections:
-    Education:
-      - institution: Kennesaw State University
-        location: Marietta, Georgia, USA
-        url: https://www.kennesaw.edu/
-        area: Computer Science
-        degree: Ph.D.
-        start_date: 2024
-        end_date: present
+service:
+  - year: "2025"
+    what: Technical Session Monitor, IEEE International Conference on Robotics and Automation (ICRA 2025)
+    where: Atlanta, GA
+  - year: "2025"
+    what: General Secretary, Bangladesh Student Association, Kennesaw State University
+    where: Marietta, GA
+  - year: "2022"
+    what: Technical Program Manager, Robotronics 2.0
+    where: RUET
+  - year: "2021"
+    what: Volunteer, Technical Session, ACMI Conference
+    where: RUET
+  - year: "2019"
+    what: Volunteer, Decoration & Management, Robotronics 1.0
+    where: RUET
+  - year: "2018"
+    what: "Volunteer, Technical Program, GPH Ispat “Esho Robot Banai” (Let’s Make Robots)"
+    where: RUET
 
-      - institution: Rajshahi University of Engineering & Technology
-        location: Rajshahi, Bangladesh
-        url: https://www.ruet.ac.bd/
-        area: Mechatronics Engineering
-        degree: B.Sc.
-        start_date: 2017
-        end_date: 2022
-        highlights:
-          - "CGPA: 3.63 / 4.00"
+awards:
+  - year: "2022"
+    what: Ranked 237th, Robi Datathon 2.0 Pre-Assessment
+    where: Kaggle
+  - year: "2022"
+    what: Team MVP, Robotic Society of RUET
+    where: RUET
+  - year: "2018"
+    what: Academic Excellence Award
+    where: RUET
 
-      - institution: Uttara High School & College
-        location: Dhaka, Bangladesh
-        area: Higher Secondary Certificate (HSC)
-        degree: HSC
-        start_date: 2014
-        end_date: 2016
-        highlights:
-          - "GPA: 5.00 / 5.00"
+certificates:
+  - year: "2022"
+    what: Blockchain Training
+    where: Bangabandhu Sheikh Mujib Hi-Tech Park
+  - year: "2022"
+    what: Data Structures — Data Structures & Algorithms Specialization
+    where: Coursera
+  - year: "2022"
+    what: Algorithmic Toolbox — Data Structures & Algorithms Specialization
+    where: Coursera
+  - year: "2019"
+    what: Industrial Training
+    where: Bangladesh Steel Re-Rolling Mills Ltd.
 
-    Experience:
-      - company: Kennesaw State University
-        position: Graduate Research Assistant
-        location: Marietta, GA
-        start_date: 2024-08
-        end_date: present
-        highlights:
-          - Mixed-reality system development
-          - Research in MR/AR/VR
+coursework:
+  - Artificial Intelligence
+  - Machine Learning
+  - DSP & Machine Vision
+  - Robotics
+  - Human-Robot Interaction
+  - Embedded Systems
+  - Microcontrollers
+  - Software Engineering
+  - Network & Communication Systems
+  - Digital Systems
 
-      - company: Sazim Tech Ltd.
-        position: Software Engineer
-        location: Dhaka, Bangladesh
-        start_date: 2022-09
-        end_date: 2024-06
-        highlights:
-          - Full-stack software development and data analysis with Node.js and Python
-          - DevOps, CI/CD, and test-driven development; project lead
-          - Mentoring in the internship program
+skills:
+  - area: Languages
+    items: Python, JavaScript, TypeScript, C++, C#, Java, Go, PHP
+  - area: Machine learning
+    items: PyTorch, TensorFlow, Keras, scikit-learn, OpenCV, NumPy, Pandas
+  - area: Visualization
+    items: Matplotlib, Seaborn, Tableau
+  - area: Frameworks
+    items: Node.js, NestJS, React, React Native, Vue.js, Laravel, .NET Core
+  - area: Data & cloud
+    items: PostgreSQL, MySQL, MongoDB, Firestore, Firebase, AWS Lambda
+  - area: APIs & tooling
+    items: REST, GraphQL, FHIR, Git, Docker, CI/CD, JIRA
 
-      - company: Charity Guard ApS
-        position: API Developer (Remote, Contract)
-        location: Odense, Denmark
-        start_date: 2020-08
-        end_date: 2021-08
-        highlights:
-          - CPR API development with Laravel and Python
-          - Documentation and maintenance
-
-      - company: Step-up IT & Training Institute
-        position: Full-stack Developer (Part-time)
-        location: Rajshahi, Bangladesh
-        start_date: 2019-07
-        end_date: 2020-09
-        highlights:
-          - Dedicated backend engineer (PHP/Laravel)
-          - Design, development, debugging, and deployment
-
-    Volunteer:
-      - company: International Conference on Robotics and Automation (ICRA) 2025
-        position: Technical Session Monitor (Volunteer)
-        location: Atlanta, GA
-        date: 2025
-
-      - company: Bangladesh Student Association, Kennesaw State University
-        position: General Secretary
-        location: Marietta, GA
-        date: 2025
-
-      - company: Robotronics 2.0
-        position: Technical Program Manager
-        location: RUET, Rajshahi
-        date: 2022
-
-      - company: Robotic Society of RUET
-        position: Technical Secretary (Software)
-        location: Rajshahi, Bangladesh
-        start_date: 2018
-        end_date: 2022
-        highlights:
-          - 2021–2022 → Technical Secretary (Software)
-          - 2019–2020 → Asst. Technical Secretary (Software)
-          - 2018–2019 → IT Manager
-
-      - company: ACMI Conference
-        position: Volunteer, Technical Session
-        location: RUET, Rajshahi
-        date: 2021
-
-      - company: Robotronics 1.0
-        position: Volunteer, Decoration & Management
-        location: RUET, Rajshahi
-        date: 2019
-
-      - company: Team Ogrodoot, RUET
-        position: Software Team Member
-        location: Rajshahi, Bangladesh
-        date: 2018
-        highlights:
-          - Indian Rover Challenge (Jan 2018)
-          - European Rover Challenge (Sep 2018)
-
-      - company: "GPH Ispat: “Esho Robot Banai” (Let’s make Robots)"
-        position: Volunteer, Technical Program
-        location: RUET, Rajshahi
-        date: 2018
-
-    Publications:
-      - title: DOTA2 Winner Team Prediction based on Stacked Bidirectional LSTM Network
-        authors:
-          - J. Uddin
-          - I. Fahmida
-          - S. I. Moyeen
-          - M. Mehedi Hasan
-        publisher: 2022 4th International Conference on Electrical, Computer & Telecommunication Engineering (ICECTE)
-        date: 2022
-
-      - title: An Intelligent Industrial Safety and Health Monitoring System for Industry 4.0
-        authors:
-          - P. Das
-          - S. H. Abhi
-          - F. I. Z. Sureed
-          - J. Uddin
-          - S. Jahan
-          - R. Zaman
-          - M. A. K. Niloy
-        publisher: 2022 International Conference on Mechanical, Industrial and Energy Engineering (ICMIEE)
-        date: 2022
-
-      - title: Performance Evaluation of Navigation Schemes for Autonomous Exploration of a Secondary Explorer Rover in a Martian Lava Cave
-        authors:
-          - A. Mazumder
-          - M. A. K. Niloy
-          - M. F. Shahed
-          - Z. A. Madiha
-          - F. R. Badal
-          - J. Uddin
-          - M. Z. Hossain
-        publisher: 2022 IEEE Region 10 Symposium (TENSYMP)
-        date: 2022
-
-    Projects:
-      - name: A Hybrid Approach to Mammography Image Processing and Cancerous Lesion Classification
-        summary: Undergraduate thesis, supervised by Sumaya Ishrat Moyeen, Asst. Prof., RUET.
-        date: 2022
-        highlights:
-          - Used the CBIS-DDSM dataset from The Cancer Imaging Archive (TCIA)
-          - Comprehensive mammography preprocessing, including pectoral muscle removal
-          - Designed a hybrid neural network architecture (EfficientNetV2 + SVM) for cancerous lesion classification
-          - Manuscript under review at SN Computer Science
-
-      - name: DOTA2 Winner Team Prediction based on Stacked Bidirectional LSTM Network
-        summary: Data analysis research, supervised by Md. Mehedi Hasan, RUET.
-        date: 2022
-        highlights:
-          - Collected match data of 27,000 professional matches from OpenAPI
-          - Designed a bidirectional LSTM network to predict the winner
-          - Built a web application around the model for real-time prediction
-          - Presented at ICECTE 2022
-
-      - name: An Intelligent Industrial Safety and Health Monitoring System for Industry 4.0
-        summary: Embedded systems sessional project I, supervised by Prangon Das, RUET.
-        date: 2022
-        highlights:
-          - Deep learning-based worker safety detection model trained on helmeted and masked face images
-          - Real-time health monitoring and sensor data visualization server using Streamlit
-          - Presented at ICMIEE 2022
-
-      - name: An IoT Based Embedded System for Automated Railway Gate Control and Monitoring
-        summary: Embedded systems sessional project II, supervised by S. H. Abhi, RUET.
-        date: 2022
-        highlights:
-          - Sensor-based, Arduino-controlled gate management system
-          - Real-time data communication using a NodeMCU module for live train updates
-
-    Awards:
-      - title: "Ranked 237, Robi Datathon 2.0: Pre-Assessment"
-        date: 2022
-        awarder: Kaggle Competition
-
-      - title: Team MVP, Robotic Society of RUET
-        date: 2022
-        awarder: RUET, Rajshahi
-
-      - title: Academic Excellence, Rajshahi University of Engineering & Technology
-        date: 2018
-        awarder: RUET, Rajshahi
-
-    Certificates:
-      - name: Block Chain Training
-        date: 2022
-        issuer: Bangabandhu Sheikh Mujib Hi-tech Park, Bangladesh
-
-      - name: "Data Structures (Data Structures & Algorithms Specialization)"
-        date: 2022-06
-        issuer: Coursera
-
-      - name: "Algorithmic Toolbox (Data Structures & Algorithms Specialization)"
-        date: 2022-04
-        issuer: Coursera
-
-      - name: Industrial Training
-        date: 2019
-        issuer: Bangladesh Steel Re-Rolling Mills Ltd.
-
-      - name: Participation, European Rover Challenge
-        date: 2018
-        issuer: Poland
-
-      - name: Participation, Indian Rover Challenge
-        date: 2018
-        issuer: India
-
-    Skills:
-      - name: Programming Languages
-        keywords: "Python, JavaScript, TypeScript, PHP, C#, Java, C++, Go, Arduino"
-
-      - name: ML Frameworks
-        keywords: "PyTorch, TensorFlow, Keras"
-
-      - name: ML Utility Tools
-        keywords: "scikit-learn, OpenCV, Pandas, NumPy"
-
-      - name: Data Visualization
-        keywords: "Matplotlib, Seaborn, Tableau"
-
-      - name: Development Frameworks
-        keywords: "Node.js, Laravel, React, NestJS, Vue.js, React Native, .NET Core"
-
-      - name: Cloud Services
-        keywords: "Firebase, AWS Lambda"
-
-      - name: Databases
-        keywords: "MySQL, PostgreSQL, MongoDB, Firestore"
-
-      - name: APIs & SDKs
-        keywords: "GNOME Toolkit, Facebook SDK, Chrome Extension API"
-
-      - name: Development Utilities
-        keywords: "RESTful API, GraphQL, FHIR"
-
-      - name: Graphics & Processing
-        keywords: "Vector Illustration, UI Design, UML, Image Processing"
-
-      - name: Others
-        keywords: "Git, Open-source Libraries, JIRA, CI/CD, Docker"
-
-    Relevant Coursework:
-      - label: Undergraduate (RUET)
-        details: "Artificial Intelligence, Machine Learning, Robotics, Human-Robot Interaction, DSP & Machine Vision, Software Engineering, Embedded Systems, Microcontroller, Network & Communication Systems, Digital Systems"
-
-    Languages:
-      - name: Bengali
-        summary: "Native"
-
-      - name: English
-        summary: "B2"
-
-      - name: Hindi
-        summary: "Conversational"
-
-    Interests:
-      - name: Research
-        icon: fa-solid fa-flask
-        keywords: "Computer Vision, Mixed Reality"
-
-      - name: Hobbies
-        icon: fa-solid fa-guitar
-        keywords: "Guitar Playing, Sketch Drawing, Graphic Design"
+languages:
+  - Bengali (native)
+  - English (B2)
+  - Hindi (conversational)

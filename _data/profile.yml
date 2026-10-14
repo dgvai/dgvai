@@ -1,0 +1,33 @@
+name: Jalal Uddin
+title: Ph.D. Student in Computer Science
+role: Graduate Research Assistant
+affiliation: Kennesaw State University
+affiliation_url: https://www.kennesaw.edu/
+location: Marietta, Georgia, USA
+email: juddin3@students.kennesaw.edu
+photo: /assets/img/profile.jpg
+
+# Author names to highlight in publication lists.
+highlight_names:
+  - J. Uddin
+  - Jalal Uddin
+
+interests:
+  - Computer Vision
+  - Mixed Reality (AR/VR)
+  - Deep Learning
+  - Image Processing
+
+links:
+  - label: Email
+    icon: email
+    url: mailto:juddin3@students.kennesaw.edu
+  - label: Google Scholar
+    icon: scholar
+    url: https://scholar.google.com/citations?user=UM6hcO0AAAAJ
+  - label: GitHub
+    icon: github
+    url: https://github.com/dgvai
+  - label: LinkedIn
+    icon: linkedin
+    url: https://www.linkedin.com/in/myselfjalal

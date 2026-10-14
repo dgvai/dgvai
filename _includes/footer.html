@@ -1,0 +1,10 @@
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <span>&copy; {{ site.time | date: "%Y" }} {{ site.data.profile.name }}</span>
+    <span class="footer-links">
+      {%- for link in site.data.profile.links -%}
+        <a href="{{ link.url }}" aria-label="{{ link.label }}" title="{{ link.label }}">{% include icon.html name=link.icon %}</a>
+      {%- endfor -%}
+    </span>
+  </div>
+</footer>
