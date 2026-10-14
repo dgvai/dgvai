@@ -1,0 +1,9 @@
+# Short thoughts, newest first. Each note needs `date` (YYYY-MM-DD) and `text` (Markdown).
+# Add `threads:` with a post URL to link the original Threads post. The Notes link
+# appears in the nav once this file has at least one note.
+#
+# - date: 2026-10-14
+#   text: >-
+#     Your thought goes here. It can span several lines and use **Markdown**.
+#   threads: https://www.threads.net/@yourhandle/post/XXXXXXXX
+[]

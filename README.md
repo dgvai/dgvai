@@ -15,6 +15,7 @@ Almost everything lives in `_data/`:
 | `publications.yml`      | Papers; `selected: true` puts one on the home page             |
 | `projects.yml`          | Research projects                                              |
 | `software.yml`          | Open-source apps and Laravel packages                          |
+| `notes.yml`             | Short thoughts for the Notes page, optionally linking a Threads post |
 | `cv.yml`                | Education, experience, service, awards, skills for the CV page |
 
 The Projects and CV pages (`projects.html`, `cv.html`) are hidden for now with `published: false`. To bring one back, remove that line and add the page to the nav list in `_includes/header.html`.
